@@ -3,7 +3,8 @@ var Promise = require("bluebird");
 var places = [
     require('./adapters/blancco'), 
     require('./adapters/antell'),
-    require('./adapters/ravintola911')
+    require('./adapters/ravintola911'),
+    require('./adapters/keltasirkku')
 ];
 
 var cachedResult = {};
