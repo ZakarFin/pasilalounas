@@ -4,24 +4,12 @@ var Promise = require("bluebird");
 
 var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
 var url = 'http://www.antell.fi/lounaslistat/lounaslista.html?owner=268';
-var cachedResult = {};
-// 30mins
-var expiry = 30*60*1000;
-function hasExpired() {
-    return cachedResult.ts < new Date().getTime() - expiry;
-}
 
-function getMenu(callback) {
-
-  return new Promise(function(resolve, reject) {
-        if(cachedResult.res && !hasExpired()) {
-            resolve(cachedResult.res);
-            return;
-        }
+function getMenu() {
+    return new Promise(function(resolve, reject) {
         request(url, function (error, response, body) {
             if (error || response.statusCode !== 200) {
                 reject(error);
-                //callback(error);
                 return;
             }
             $ = cheerio.load(body, {
@@ -30,7 +18,6 @@ function getMenu(callback) {
             });
             var dayTables = $('#lunch-content-table table.show');
             var result = [];
-            //var wasHeading = false;
             dayTables.each(function(index, elem) {
                 if($(elem).find('tr').length < 5) {
                     // usually not a menu table
@@ -51,12 +38,7 @@ function getMenu(callback) {
                 menu = menu.filter(hasValue);
                 res[day] = menu;
             });
-            cachedResult = {
-                res : res,
-                ts : new Date().getTime()
-            };
             resolve(res);
-            //callback(null, res); 
         });
     });
 }
