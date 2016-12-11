@@ -1,35 +1,46 @@
-var blancco = require('./blancco');
-var antell = require('./antell');
-var Promise = require("bluebird");
-var rav911 = require('./ravintola911');
+//var Promise = require("bluebird");
 
+var express = require('express');
+var app = express();
+app.set('view engine', 'pug');
 
-Promise.join(blancco(), antell(), rav911(), function(bl, ant, rav911) {
+var lunch = require('./lunch');
 
-    var day = "maanantai";
-    console.log("Blancco");
-    console.log(bl[day]);
-
-    console.log("\nAntell");
-    console.log(ant[day]);
-
-    console.log("\nRavintola 911");
-    console.log(rav911[day]);
-});
-
-//testMenu(rav911, "rav911");
-
-function testMenu(provider, name) {
-    provider().then(function(menu) {
-        var keys = Object.keys(menu);
-
-        console.log('Menu for ' + name);
-        keys.forEach(function(day) {
-            console.log('\nDay: ' + day + '\n--------------------');
-            console.log(menu[day].join('\n'));
+var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
+function getDay(requested) {
+    if(days.includes(requested)) {
+        return requested;
+    }
+    var day = new Date().getDay();
+    if(day === 0) {
+        return days[0];
+    }
+    if(day > 5) {
+        return days[days.length - 1];
+    }
+    return days[day];
+}
+function renderHtml(req, res) {
+    var day = getDay(req.params.day);
+    lunch(day).then(function(result) {
+        res.render('index', { 
+            title: 'Lounas@Pasila', 
+            options : days,
+            day : day,
+            places: result || []
         });
-
-    }).catch(function(err) {
-        console.log('Error getting menu from ' + name, err);
     });
 }
+app.get('/', renderHtml);
+app.get('/:day', renderHtml);
+
+app.get('/lunch.json', function (req, res) {
+
+    lunch(getDay()).then(function(result) {
+        res.send(result);
+    });
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+});

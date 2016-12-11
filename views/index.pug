@@ -1,0 +1,29 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible',content='IE=edge')
+    meta(name='viewport',content='width=device-width, initial-scale=1')
+    title= title
+    link(rel='stylesheet',href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+    div(class='container')
+        nav(class='navbar navbar-default')
+            h1(align='center')= title
+            div(class='btn-group btn-group-lg btn-group-justified')
+                each opt in options
+                    a(class=(opt===day) ? 'btn btn-default btn-primary' : 'btn btn-default', href='/' + opt)= opt
+
+        each place in places
+            div(class='col-md-4')
+                div(class='panel panel-default')
+                    div(class='panel-heading')
+                        a(href=place.url, target='_blank')= place.name
+                    div(class='panel-body')
+                        ul(style='list-style-type:none')
+                          each item in place.menu
+                            li= item
+                          else
+                            li No menu
+        else
+            div No places available
+

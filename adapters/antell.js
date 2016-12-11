@@ -3,11 +3,17 @@ var cheerio = require('cheerio');
 var Promise = require("bluebird");
 
 var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
+var url = 'http://www.antell.fi/lounaslistat/lounaslista.html?owner=268';
+var cachedResult;
 
 function getMenu(callback) {
 
   return new Promise(function(resolve, reject) {
-        request('http://www.antell.fi/lounaslistat/lounaslista.html?owner=268', function (error, response, body) {
+        if(cachedResult) {
+            resolve(cachedResult);
+            return;
+        }
+        request(url, function (error, response, body) {
             if (error || response.statusCode !== 200) {
                 reject(error);
                 //callback(error);
@@ -40,6 +46,7 @@ function getMenu(callback) {
                 menu = menu.filter(hasValue);
                 res[day] = menu;
             });
+            cachedResult = res;
             resolve(res);
             //callback(null, res); 
         });
@@ -60,4 +67,9 @@ function startsWithDay(txt) {
     })
     return isDay;
 }
-module.exports = getMenu;
+
+module.exports = {
+    name : "Antell",
+    url : url,
+    getMenu : getMenu
+};

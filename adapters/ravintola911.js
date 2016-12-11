@@ -3,11 +3,17 @@ var cheerio = require('cheerio');
 var Promise = require("bluebird");
 
 var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
+var url = 'http://www.ravintola911.fi/kumpulantien-lounaslista/';
+var cachedResult;
 
 function getMenu(callback) {
 
   return new Promise(function(resolve, reject) {
-        request('http://www.ravintola911.fi/kumpulantien-lounaslista/', function (error, response, body) {
+        if(cachedResult) {
+            resolve(cachedResult);
+            return;
+        }
+        request(url, function (error, response, body) {
             if (error || response.statusCode !== 200) {
                 reject(error);
                 //callback(error);
@@ -30,7 +36,7 @@ function getMenu(callback) {
                 if(inHeading) {
                     return;
                 }
-                if(txt.indexOf('……') === 0) {
+                if(txt.indexOf('…') === 0) {
                     dayChange = index;
                     return;
                 }
@@ -55,6 +61,7 @@ function getMenu(callback) {
                 menu.unshift(dessert.join(' '));
                 res[curDay] = menu;
             });
+            cachedResult = res;
             resolve(res);
             //callback(null, res); 
         });
@@ -87,4 +94,8 @@ function extractDay(txt) {
     })
     return currentDay;
 }
-module.exports = getMenu;
+module.exports = {
+    name : "Ravintola 911",
+    url : url,
+    getMenu : getMenu
+};

@@ -3,10 +3,16 @@ var cheerio = require('cheerio');
 var Promise = require("bluebird");
 
 var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
+var url = 'http://www.ravintolablancco.com/louna-viikko/pasila-2/';
+var cachedResult;
 
 function getMenu(callback) {
   return new Promise(function(resolve, reject) {
-    request('http://www.ravintolablancco.com/louna-viikko/pasila-2/', function (error, response, body) {
+    if(cachedResult) {
+        resolve(cachedResult);
+        return;
+    }
+    request(url, function (error, response, body) {
         if (error || response.statusCode !== 200) {
             reject(error);
             //callback(error);
@@ -30,6 +36,7 @@ function getMenu(callback) {
             var day = menu.shift().toLowerCase();
             res[day] = menu;
         });
+        cachedResult = res;
         resolve(res);
         //callback(null, res); 
     });
@@ -47,4 +54,8 @@ function startsWithDay(txt) {
     })
     return isDay;
 }
-module.exports = getMenu;
+module.exports = {
+    name : "Blancco",
+    url : url,
+    getMenu : getMenu
+};
