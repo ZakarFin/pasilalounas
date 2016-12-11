@@ -4,13 +4,18 @@ var Promise = require("bluebird");
 
 var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
 var url = 'http://www.ravintola911.fi/kumpulantien-lounaslista/';
-var cachedResult;
+var cachedResult = {};
+// 30mins
+var expiry = 30*60*1000;
+function hasExpired() {
+    return cachedResult.ts < new Date().getTime() - expiry;
+}
 
 function getMenu(callback) {
 
   return new Promise(function(resolve, reject) {
-        if(cachedResult) {
-            resolve(cachedResult);
+        if(cachedResult.res && !hasExpired()) {
+            resolve(cachedResult.res);
             return;
         }
         request(url, function (error, response, body) {
@@ -61,7 +66,10 @@ function getMenu(callback) {
                 menu.unshift(dessert.join(' '));
                 res[curDay] = menu;
             });
-            cachedResult = res;
+            cachedResult = {
+                res : res,
+                ts : new Date().getTime()
+            };
             resolve(res);
             //callback(null, res); 
         });
