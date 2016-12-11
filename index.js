@@ -19,7 +19,7 @@ function getDay(requested) {
     if(day > 5) {
         return days[days.length - 1];
     }
-    return days[day];
+    return days[day - 1];
 }
 function renderHtml(req, res) {
     var day = getDay(req.params.day);
