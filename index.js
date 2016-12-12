@@ -35,7 +35,7 @@ function renderHtml(req, res) {
 }
 
 app.get('/lunch.json', function (req, res) {
-
+    res.setHeader("Access-Control-Allow-Origin", "*");
     lunch().then(function(result) {
         res.send(result);
     });
