@@ -42,11 +42,16 @@ module.exports = function(day) {
 function filterDay(menus, day) {
     var result = [];
     places.forEach(function(place, index) {
-        result.push({
+        var item = {
             name : places[index].name,
-            url : places[index].url,
-            menu : menus[index][day] || []
-        });
+            url : places[index].url
+        };
+        if(day) {
+            item.menu = menus[index][day] || [];
+        } else {
+            item.menu = menus[index] || {};
+        }
+        result.push(item);
     });
     return result;
 }

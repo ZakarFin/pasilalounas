@@ -33,15 +33,17 @@ function renderHtml(req, res) {
         });
     });
 }
-app.get('/', renderHtml);
-app.get('/:day', renderHtml);
 
 app.get('/lunch.json', function (req, res) {
 
-    lunch(getDay()).then(function(result) {
+    lunch().then(function(result) {
         res.send(result);
     });
 });
+
+app.get('/', renderHtml);
+app.get('/:day', renderHtml);
+
 
 app.listen(app.get('port'), function () {
   console.log('Node app is running on port', app.get('port'));
