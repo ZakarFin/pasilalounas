@@ -13,7 +13,10 @@ html
                 each opt in options
                     a(class=(opt===day) ? 'btn btn-default btn-primary' : 'btn btn-default', href='/' + opt)= opt
 
-        each place in places
+        each place, index in places
+
+            if index%3===0
+                div(class='clearfix')
             div(class='col-md-4')
                 div(class='panel panel-default')
                     div(class='panel-heading')
