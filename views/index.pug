@@ -8,10 +8,12 @@ html
   body
     div(class='container')
         nav(class='navbar navbar-default')
-            h1(align='center')= title
-            div(class='btn-group btn-group-lg btn-group-justified')
-                each opt in options
-                    a(class=(opt===day) ? 'btn btn-default btn-primary' : 'btn btn-default', href='/' + opt)= opt
+            div(class='container-fluid')
+                h1(align='center')= title
+                div(class='btn-group btn-group-lg btn-group-justified')
+                    each opt in options
+                        a(class=(opt===day) ? 'btn btn-default btn-primary' : 'btn btn-default', href='/' + opt)= opt
+                
 
         each place, index in places
 
