@@ -4,7 +4,8 @@ var places = [
     require('./adapters/antell'),
     require('./adapters/blancco'), 
     require('./adapters/ravintola911'),
-    require('./adapters/keltasirkku')
+    require('./adapters/keltasirkku'),
+    require('./adapters/factory')
 ];
 
 var cachedResult = {};
@@ -48,14 +49,15 @@ function filterDay(menus, day) {
     });
     return result;
 }
-
-//testMenu(rav911, "rav911");
-
-function testMenu(provider, name) {
-    provider().then(function(menu) {
+/*
+var latest = places[places.length -1];
+testMenu(latest);
+*/
+function testMenu(provider) {
+    provider.getMenu().then(function(menu) {
         var keys = Object.keys(menu);
 
-        console.log('Menu for ' + name);
+        console.log('Menu for ' + provider.name);
         keys.forEach(function(day) {
             console.log('\nDay: ' + day + '\n--------------------');
             console.log(menu[day].join('\n'));
