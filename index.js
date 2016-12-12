@@ -33,7 +33,7 @@ function renderHtml(req, res) {
         });
     });
 }
-
+// need to setup json before day-routes so it's triggered correctly
 app.get('/lunch.json', function (req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");
     lunch().then(function(result) {
@@ -41,6 +41,7 @@ app.get('/lunch.json', function (req, res) {
     });
 });
 
+// index and day-routes
 app.get('/', renderHtml);
 app.get('/:day', renderHtml);
 
