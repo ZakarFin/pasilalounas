@@ -5,7 +5,8 @@ var places = [
     require('./adapters/blancco'), 
     require('./adapters/ravintola911'),
     require('./adapters/keltasirkku'),
-    require('./adapters/factory')
+    require('./adapters/factory'),
+    require('./adapters/ratakivi')
 ];
 
 var cachedResult = {};
@@ -49,10 +50,9 @@ function filterDay(menus, day) {
     });
     return result;
 }
-/*
-var latest = places[places.length -1];
-testMenu(latest);
-*/
+
+//testMenu(places[places.length -1]);
+
 function testMenu(provider) {
     provider.getMenu().then(function(menu) {
         var keys = Object.keys(menu);
