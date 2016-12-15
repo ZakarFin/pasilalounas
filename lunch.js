@@ -6,7 +6,8 @@ var places = [
     require('./adapters/ravintola911'),
     require('./adapters/keltasirkku'),
     require('./adapters/factory'),
-    require('./adapters/ratakivi')
+    require('./adapters/ratakivi'),
+    require('./adapters/ravintolavaunu')
 ];
 
 var cachedResult = {};
