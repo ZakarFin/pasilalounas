@@ -27,6 +27,8 @@ function getMenu() {
         result.forEach(function(day) {
             var menu = day.split('\n');
             var day = menu.shift().toLowerCase();
+            // just take the day, remove the possible date after it
+            day = day.split(" ")[0];
             res[day] = menu;
         });
         resolve(res);

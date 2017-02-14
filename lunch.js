@@ -2,7 +2,7 @@ var Promise = require("bluebird");
 
 var places = [
     require('./adapters/antell'),
-    require('./adapters/blancco'), 
+    require('./adapters/blancco'),
     require('./adapters/ravintola911'),
     require('./adapters/keltasirkku'),
     require('./adapters/factory'),

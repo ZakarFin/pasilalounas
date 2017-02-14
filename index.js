@@ -10,7 +10,7 @@ var lunch = require('./lunch');
 
 var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
 function getDay(requested) {
-    if(days.includes(requested)) {
+    if(days.indexOf(requested) !== -1) {
         return requested;
     }
     var day = new Date().getDay();
@@ -25,8 +25,8 @@ function getDay(requested) {
 function renderHtml(req, res) {
     var day = getDay(req.params.day);
     lunch(day).then(function(result) {
-        res.render('index', { 
-            title: 'Lounas@Pasila', 
+        res.render('index', {
+            title: 'Lounas@Pasila',
             options : days,
             day : day,
             places: result || []
