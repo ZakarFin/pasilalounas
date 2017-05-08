@@ -6,28 +6,15 @@ app.set('port', (process.env.PORT || 3000));
 app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, 'public')));
 
-var lunch = require('./lunch');
+var lunch = require('./lib/lunch');
+var util = require('./lib/util');
 
-var days = "maanantai,tiistai,keskiviikko,torstai,perjantai".split(',');
-function getDay(requested) {
-    if(days.indexOf(requested) !== -1) {
-        return requested;
-    }
-    var day = new Date().getDay();
-    if(day === 0) {
-        return days[0];
-    }
-    if(day > 5) {
-        return days[days.length - 1];
-    }
-    return days[day - 1];
-}
 function renderHtml(req, res) {
-    var day = getDay(req.params.day);
+    var day = util.getDay(req.params.day);
     lunch(day).then(function(result) {
         res.render('index', {
             title: 'Lounas@Pasila',
-            options : days,
+            options : util.days,
             day : day,
             places: result || []
         });
