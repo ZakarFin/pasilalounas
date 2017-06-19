@@ -10,7 +10,7 @@ html
     link(rel='manifest',href='/manifest.json')
     link(rel='mask-icon',href='/safari-pinned-tab.svg',color='#5bbad5')
     meta(name='theme-color',content='#ffffff')
-    
+
     title= title
     link(rel='stylesheet',href='style.css')
   body
@@ -36,6 +36,7 @@ html
                           each item in place.menu
                             li= item
                           else
-                            li No menu
+                            li Listaa ei saatu ladattua, katso ravintolan sivuilta 
+                                a(href=place.url, target='_blank')= place.name
         else
             div No places available
