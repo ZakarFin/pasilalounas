@@ -36,7 +36,9 @@ html
                           each item in place.menu
                             li= item
                           else
-                            li Listaa ei saatu ladattua, katso ravintolan sivuilta 
-                                a(href=place.url, target='_blank')= place.name
+                            li Listaa ei saatu ladattua, katso ravintolan sivuilta:
+                                br
+                                br
+                                a(href=place.url, target='_blank')= ' ' + place.name + ' >>'
         else
             div No places available
