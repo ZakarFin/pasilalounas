@@ -12,9 +12,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 var lunch = require('./lib/lunch');
 var util = require('./lib/util');
 
-function renderHtml(req, res) {
+function renderHtml(req, res, useWS) {
     var day = util.getDay(req.params.day);
-    if(req.query.m == 'ws') {
+    if(useWS) {
         res.render('ws', {
             title: 'Lounas@Pasila',
             options : util.days,
@@ -41,8 +41,15 @@ app.get('/lunch.json', function (req, res) {
 });
 
 // index and day-routes
-app.get('/', renderHtml);
-app.get('/:day', renderHtml);
+app.get('/', function(req, res) {
+    renderHtml(req, res, true);
+});
+app.get('/legacy', function(req, res) {
+    renderHtml(req, res);
+});
+app.get('/:day', function(req, res) {
+    renderHtml(req, res);
+});
 
 io.on('connection', function(socket){
     console.log('a user connected');
@@ -55,6 +62,7 @@ io.on('connection', function(socket){
                 socket.emit('menu', {
                     id : place.id,
                     name : place.name,
+                    url : place.url,
                     menu : menu
                 });
             })
@@ -63,8 +71,7 @@ io.on('connection', function(socket){
                 socket.emit('menu', {
                     id : place.id,
                     name : place.name,
-                    url : place.url,
-                    menu : []
+                    url : place.url
                 });
             });
     });
