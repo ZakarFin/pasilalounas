@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "mocha lib/**/**.spec.js",
-    "testr": "mocha lib/adapters/ratakivi.spec.js"
+    "testratakivi": "mocha lib/adapters/ratakivi.spec.js",
+    "test911": "mocha lib/adapters/ravintola911.spec.js"
   },
   "keywords": [],
   "author": "",
