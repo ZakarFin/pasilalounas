@@ -7,7 +7,8 @@
     "node": "6.11.1"
   },
   "scripts": {
-    "test": "mocha lib/**/**.spec.js"
+    "test": "mocha lib/**/**.spec.js",
+    "testr": "mocha lib/adapters/ratakivi.spec.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^4.7.0",
     "mocha": "^3.3.0"
   }
 }
