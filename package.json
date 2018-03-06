@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "mocha lib/**/**.spec.js",
+    "testinsignore": "mocha lib/adapters/amica-insinoorit-ja-ekonomit.spec.js",
     "testblancco": "mocha lib/adapters/blancco.spec.js",
     "testratakivi": "mocha lib/adapters/ratakivi.spec.js",
     "test911": "mocha lib/adapters/ravintola911.spec.js"
