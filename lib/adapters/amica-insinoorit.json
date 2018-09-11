@@ -1,124 +1,124 @@
 {
-    "WeekNumber": 10,
-    "LunchMenus": [
-      {
-        "DayOfWeek": "Maanantai",
-        "Date": "5.3.2018",
-        "SetMenus": [],
-        "Html": "<p>Blini,siianmätiä,sipulia ja smetanaa tai porkkana – ja punajuurihumusta tai savulohitahnalla 11,90€</p>\n<p>Buffet 10,40€</p>\n<p>Kasviskiusausta (A, G, L)<br />Savujuusto-juuressosekeittoa (A, G, VL)<br />Maustettua broilerinseläkettä ( G,L,M ) Barbequekastiketta (G, L, M) Pastaa ( L,M ) Parmesanjuustoa (A, G, L)<br />Sitruunakuorrutettua seitifileetä (*, A, L,G,M) Jogurtti-yrttikastiketta (A, G, L) Keitettyjä perunoita (*, G, L, M, Veg)<br />Ruusunmarjarahkaa (A, G, L)<br />Mozzarellasalaatti (A, G, VL)</p>"
-      },
-      {
-        "DayOfWeek": "Tiistai",
-        "Date": "6.3.2018",
-        "SetMenus": [],
-        "Html": "<p>Blini,siianmätiä,sipulia ja smetanaa tai porkkana – ja punajuurihumusta tai savulohitahnalla 11,90€</p>\n<p>Buffet 10,40€<br />Luomutofu-kasviscurrya (*, A, G, L, M, Veg) Höyrytettyä riisiä (G, L, M, Veg)<br />Jauhelihakeittoa (*, A, G, L, M)<br />Kebab-paprikatäytettä (A, L, M, VS) Vehnätortillat (A, L, M, Veg) Salsakastiketta (G, L, M)<br />Turskaa tillikastikkeessa (*, A, L,G) Perunasosetta (A, G, L) Parsakaalia (G, L, M, Veg)<br />Mustikkakiisseliä (G, L, M, Veg) Kermavaahtoa (A, G, L)<br />Savulohisalaatti (A, G, L, M)</p>"
-      },
-      {
-        "DayOfWeek": "Keskiviikko",
-        "Date": "7.3.2018",
-        "SetMenus": [],
-        "Html": "<p>Blini,siianmätiä,sipulia ja smetanaa tai porkkana – ja punajuurihumusta tai savulohitahnalla 11,90€</p>\n<p>Buffet 10,40€</p>\n<p><br />Herne-kasvispihvejä (*, A, L, M) Vegaanista sitruunamajoneesia (A, G, L, M, Veg)<br />Kermaista kirjolohikeittoa (A, G, L)<br />Omenakuorutettua porsaanfileetä (*, G, L, M) Balsamicosiirappia (G, L, M, Veg) Valkosipuli-kermaperunoita (A, G, L, VS)<br />Papu-pekonilisäkettä (G, L, M, VS)<br />Uunibanaania (G, L, M, Veg) Vaniljakastiketta (A, G, L)<br />Broilerisalaatti (*, G, L, M)</p>"
-      },
-      {
-        "DayOfWeek": "Torstai",
-        "Date": "8.3.2018",
-        "SetMenus": [],
-        "Html": "<p>Blini,siianmätiä,sipulia ja smetanaa tai porkkana – ja punajuurihumusta tai savulohitahnalla 11,90€</p>\n<p>Buffet 10,40€</p>\n<p><br />Chili con vege (*, A, G, L, M, Veg, VS) Basmatiriisiä (G, L, M, Veg)<br />Herkkusienikeittoa (A, G, L)<br />Karjalanpaistia ( G,L,M ) Paahdettuja perunoita ( G,L,M ) Puolukkahilloa (G, L, M, Veg)<br />Currymaustettu broilerifileetä (*, G, L, M) Minttu -jogurttikastiketta (*, A, G, L, VS)<br />Paahdettuja hunaja-punajuuria (G, L, M)<br />Puolukkakukkoa (A, L, M, Veg) Kermavaahtoa (A, G, L)<br />Vuohenjuustosalaatti (A, G, VL)</p>"
-      },
-      {
-        "DayOfWeek": "Perjantai",
-        "Date": "9.3.2018",
-        "SetMenus": [],
-        "Html": "<p>Blini,siianmätiä,sipulia ja smetanaa tai porkkana – ja punajuurihumusta tai savulohitahnalla 11,90€</p>\n<p>Buffet 10,40€</p>\n<p><br />Ratatouille ( G,L,M ) Mausteista basmatiriisiä (A, G, L, M, Veg)<br />Bataatti-kookossosekeittoa (G, L, M, Veg, VS)<br />Kirjolohi-tomaattikastiketta (*, A, L, VS) Kierrepastaa (A, L, M, Veg) Parmesanjuustoa (A, G, L)<br />Jauhelihapihvi (A, L, M) Täyteläistä mustapippurikastiketta (A, G, L) Keitettyjä perunoita (*, G, L, M, Veg)<br />Jogurttipannacottaa (A, G, L) Mansikkamelbaa ( G,L,M )<br />Katkarapusalaatti (A, G, L, M)</p>"
-      },
-      {
-        "DayOfWeek": "Lauantai",
-        "Date": "10.3.2018",
-        "SetMenus": [],
-        "Html": ""
-      },
-      {
-        "DayOfWeek": "Sunnuntai",
-        "Date": "11.3.2018",
-        "SetMenus": [],
-        "Html": ""
-      }
-    ],
-    "RequireDietFilters": [
-      {
-        "Name": "GlutenFree",
-        "TranslatedName": "Gluteeniton",
-        "Diet": "G",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": []
-      },
-      {
-        "Name": "LactoseFree",
-        "TranslatedName": "Laktoositon",
-        "Diet": "L",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": [
-          "M"
-        ]
-      },
-      {
-        "Name": "LowLactose",
-        "TranslatedName": "Vähälaktoosinen",
-        "Diet": "VL",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": [
-          "L",
-          "M"
-        ]
-      },
-      {
-        "Name": "NoMilk",
-        "TranslatedName": "Maidoton",
-        "Diet": "M",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": []
-      },
-      {
-        "Name": "Healthy",
-        "TranslatedName": "Voi hyvin",
-        "Diet": "*",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": []
-      },
-      {
-        "Name": "Vegetarian",
-        "TranslatedName": "Soveltuu vegaaniruokavalioon",
-        "Diet": "Veg",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": []
-      }
-    ],
-    "ExcludeDietFilters": [
-      {
-        "Name": "Garlic",
-        "TranslatedName": "Sis. tuoretta valkosipulia",
-        "Diet": "VS",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": []
-      },
-      {
-        "Name": "Allergens",
-        "TranslatedName": "Sis. allergeeneja",
-        "Diet": "A",
-        "Selected": false,
-        "Inactive": true,
-        "AdditionalVisibleDiets": []
-      }
-    ],
-    "RestaurantDietFilters": [],
-    "LastWeekMenuStartDate": null,
-    "NextWeekMenuStartDate": null,
-    "ProductDataSheets": []
-  }
+  "WeekNumber": 37,
+  "LunchMenus": [
+    {
+      "DayOfWeek": "Maanantai",
+      "Date": "10.9.2018",
+      "SetMenus": [],
+      "Html": "<p>Buffa 10,40€</p>\n<p>Pinaatti-ricottacanneloneja tomaattikastikeessa (A, VS)<br />Bataattisosekeittoa (*, A, L,G, Veg)<br />Uunimakkaraa juustotäytteellä (A, G, L) Kurkku-sinappirelishsalaattia (A, G, L, M, Veg) Perunamuussia ( G,L )<br />Juustokuorrutettua turskafileetä (*, A, G,L) Persilja-porkkanoita (G, L, M, Veg)<br />Suklaabrownie (A,&nbsp; VL)<br />Vuohenjuustosalaatti (A, G, VL)<br /><br /></p>\n<p>VL = Vähälaktoosinen L = Laktoositon G = Gluteeniton M = Maidoton * = Voi hyvin<br />A = Sisältää allergeenia Veg = Vegaaniruoka VS = Sisältää tuoretta valkosipulia</p>"
+    },
+    {
+      "DayOfWeek": "Tiistai",
+      "Date": "11.9.2018",
+      "SetMenus": [],
+      "Html": "<p>Buffa 10,40€</p>\n<p>Kesäkurpitsapihvejä ( G,L ) Vihannescouscousia (A, L, M) Jogurttia ( G,L )<br />Tomaattikeittoa (A, G, L, M, Veg,)&nbsp; Parmesaani – jääsalaattitahnaa ( G,L )<br />Savumarinoitua kirjolohta (*, A, G, L, M) Lime-majoneesikastiketta (A, G, M) Paahdettujaperunoita (G, L, M, Veg)<br />Parsakaalia (G, L, M, Veg)<br />Mansikkanektariini (G, L, M, Veg)<br />Kinkkusalaatti (G, L, M )<br /><br /></p>\n<p>VL = Vähälaktoosinen L = Laktoositon G = Gluteeniton M = Maidoton * = Voi hyvin<br />A = Sisältää allergeenia Veg = Vegaaniruoka VS = Sisältää tuoretta valkosipulia</p>"
+    },
+    {
+      "DayOfWeek": "Keskiviikko",
+      "Date": "12.9.2018",
+      "SetMenus": [],
+      "Html": "<p>Buffa 10,40€</p>\n<p>Raastepihvejä (*, A,G, L,) Hummusta (G, L, M, VS)<br />Punajuurisosekeittoa (*, A, G, L)<br />Katkarapu-purjosipulitäytettä (A, G, L) Uuniperunaa (*, G, L, M, Veg)<br />Ylikypsää nautaa ja possua sekä lanttusosetta ja porkkanaa (A, L,G) Keitettyjä perunoita (*, G, L, M, Veg)<br />Mustikka-jogurttipannacottaa (A, G, L)<br />Broilerisalaatti ( G,L,M )<br /><br /></p>\n<p>VL = Vähälaktoosinen L = Laktoositon G = Gluteeniton M = Maidoton * = Voi hyvin<br />A = Sisältää allergeenia Veg = Vegaaniruoka VS = Sisältää tuoretta valkosipulia</p>"
+    },
+    {
+      "DayOfWeek": "Torstai",
+      "Date": "13.9.2018",
+      "SetMenus": [],
+      "Html": "<p>Buffa 10,40€</p>\n<p>Quornia tomaatti-kasviskastikkeessa (*, A, G, L, M, VS) Bataatti-perunapaistosta (G, L, M, Veg)<br />Kirkas kirjolohikeitto (*, A, G, L, M)<br />Jauhemaksapihvejä (A, G, L, M) Haudutettua sipulia (G, L, M, Veg) Perunasosetta (*, A, G, L)<br />Puolukkahilloa (G, L, M, Veg)<br />Kievin kanaa (A, L, VS) Punaviinikastiketta ( G,L,M )<br />Omena-kanelivaahtoa (A, G, L, M, Veg)<br />Mozzarellasalaatti (A, G, VL)<br /><br /></p>\n<p>VL = Vähälaktoosinen L = Laktoositon G = Gluteeniton M = Maidoton * = Voi hyvin<br />A = Sisältää allergeenia Veg = Vegaaniruoka VS = Sisältää tuoretta valkosipulia</p>"
+    },
+    {
+      "DayOfWeek": "Perjantai",
+      "Date": "14.9.2018",
+      "SetMenus": [],
+      "Html": "<p>Buffa 10,40€</p>\n<p>Luomutofu-kasviscurrya (*, A, G, L, M, Veg) Basmatiriisiä (G, L, M, Veg)<br />Mustajuurisosekeittoa (A, G, L, VS)<br />Kaali-jauhelihalaatikkoa (*, G, L, M) Puolukkahilloa (G, L, M, Veg)<br />Broileria, bambunversoja ja vesikastanjaa hapanimeläkastikkeessa (*, A, G, L, M) Riisiä ( G,L,M )<br />Valkosuklaamoussea (A, G)<br />Savukirjolohisalaatti (A, L, M, VS)<br /><br /></p>\n<p>VL = Vähälaktoosinen L = Laktoositon G = Gluteeniton M = Maidoton * = Voi hyvin<br />A = Sisältää allergeenia Veg = Vegaaniruoka VS = Sisältää tuoretta valkosipulia</p>"
+    },
+    {
+      "DayOfWeek": "Lauantai",
+      "Date": "15.9.2018",
+      "SetMenus": [],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Sunnuntai",
+      "Date": "16.9.2018",
+      "SetMenus": [],
+      "Html": ""
+    }
+  ],
+  "RequireDietFilters": [
+    {
+      "Name": "GlutenFree",
+      "TranslatedName": "Gluteeniton",
+      "Diet": "G",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "LactoseFree",
+      "TranslatedName": "Laktoositon",
+      "Diet": "L",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": [
+        "M"
+      ]
+    },
+    {
+      "Name": "LowLactose",
+      "TranslatedName": "Vähälaktoosinen",
+      "Diet": "VL",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": [
+        "L",
+        "M"
+      ]
+    },
+    {
+      "Name": "NoMilk",
+      "TranslatedName": "Maidoton",
+      "Diet": "M",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Healthy",
+      "TranslatedName": "Voi hyvin",
+      "Diet": "*",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Vegetarian",
+      "TranslatedName": "Soveltuu vegaaniruokavalioon",
+      "Diet": "Veg",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "ExcludeDietFilters": [
+    {
+      "Name": "Garlic",
+      "TranslatedName": "Sis. tuoretta valkosipulia",
+      "Diet": "VS",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Allergens",
+      "TranslatedName": "Sis. allergeeneja",
+      "Diet": "A",
+      "Selected": false,
+      "Inactive": true,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "RestaurantDietFilters": [],
+  "LastWeekMenuStartDate": null,
+  "NextWeekMenuStartDate": null,
+  "ProductDataSheets": []
+}

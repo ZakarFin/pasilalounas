@@ -1,0 +1,1019 @@
+{
+  "WeekNumber": 37,
+  "LunchMenus": [
+    {
+      "DayOfWeek": "Maanantai",
+      "Date": "10.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Keitettyjä perunoita",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Paahdettua punajuurta",
+              "RecipeId": 13674,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Korianteri-cashewpähkinäkuorrutettua koljaa",
+              "RecipeId": 16467,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Sitruunajogurttikastiketta",
+              "RecipeId": 5334,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Riistabolognesea",
+              "RecipeId": 16363,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Luomutäysjyväspagettia",
+              "RecipeId": 6017,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Jälkiruoka (ma, ke ja pe pilkotut hedelmät)",
+          "Price": null,
+          "Meals": []
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kasviskaalikääryleitä",
+              "RecipeId": 9309,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Karpalohilloketta",
+              "RecipeId": 10690,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Mausteista luomusoija-kasvispataa",
+              "RecipeId": 16266,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Bataatti-omenakeittoa",
+              "RecipeId": 14851,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Tiistai",
+      "Date": "11.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Broilerin rintaleike sitruunakastikkeessa",
+              "RecipeId": 3867,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lämmintä kesäkurpitsasalsaa",
+              "RecipeId": 3698,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Limeriisiä",
+              "RecipeId": 5046,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Karamellisoitua ruusukaalia",
+              "RecipeId": 13226,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Pulled porkia",
+              "RecipeId": 13929,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tomaatti-jalapenosalsaa",
+              "RecipeId": 3739,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vehnätortillat",
+              "RecipeId": 15801,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Ranskankermaa",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Jälkiruoka (ma, ke ja pe pilkotut hedelmät)",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Raparperi-kaurapaistosta",
+              "RecipeId": 5864,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vaniljakastiketta",
+              "RecipeId": 12195,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Tomaatti-pestopannupizzaa",
+              "RecipeId": 16782,
+              "Diets": [
+                "A",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kukkakaali-punajuurigratiinia",
+              "RecipeId": 15427,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Linssi-kasviskeittoa",
+              "RecipeId": 14311,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Keskiviikko",
+      "Date": "12.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Uuniperunaa",
+              "RecipeId": 179,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Katkarapu-kasvistäytettä",
+              "RecipeId": 1414,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Talon jauhelihapihvi papu-tomaattikuorrutteella",
+              "RecipeId": 1111,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Luomutäysjyväpennepastaa",
+              "RecipeId": 5842,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Jälkiruoka (ma, ke ja pe pilkotut hedelmät)",
+          "Price": null,
+          "Meals": []
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Juurespihvejä",
+              "RecipeId": 3883,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pestorosso-ranskankermakastiketta",
+              "RecipeId": 4954,
+              "Diets": [
+                "A",
+                "G",
+                "VL",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lohkoperunoita ja paprikaa",
+              "RecipeId": 11684,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Dal - Linssimuhennosta ",
+              "RecipeId": 14833,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pitaleipää",
+              "RecipeId": 14934,
+              "Diets": [
+                "A",
+                "L",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kurkku-tillisalaattia",
+              "RecipeId": 15359,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Sipulikeittoa",
+              "RecipeId": 7836,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Torstai",
+      "Date": "13.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Tulisia broilerinuijia",
+              "RecipeId": 11867,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "BBQ -majoneesia",
+              "RecipeId": 13536,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lohkoperunoita ja paprikaa",
+              "RecipeId": 11684,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Paahdettua maissintähkää",
+              "RecipeId": 7094,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Keittolounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Lihakeittoa",
+              "RecipeId": 691,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Jälkiruoka (ma, ke ja pe pilkotut hedelmät)",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Puolukkavispipuuroa",
+              "RecipeId": 744,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Luomutofua ja kasviksia kormakastikkeessa ",
+              "RecipeId": 11207,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Basmatiriisiä",
+              "RecipeId": 106,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kreikkalaista kaurajogurttia",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Täysjyvävehnätortilla",
+              "RecipeId": 15802,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Nyhtökauratäytettä",
+              "RecipeId": 16417,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pico De Gallo -salsaa",
+              "RecipeId": 13682,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kasvis-hernekeittoa",
+              "RecipeId": 8317,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Perjantai",
+      "Date": "14.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Savumarinoitua kirjolohta",
+              "RecipeId": 108,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tartarkastiketta",
+              "RecipeId": 199,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Keitettyjä perunoita",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Lounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Jauhelihalasagnettea",
+              "RecipeId": 4059,
+              "Diets": [
+                "A",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Jälkiruoka (ma, ke ja pe pilkotut hedelmät)",
+          "Price": null,
+          "Meals": []
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Linssi-kasvislasagnea",
+              "RecipeId": 16798,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kaura-härkäpapupihvejä",
+              "RecipeId": 14865,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tomaattikastiketta",
+              "RecipeId": 6110,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Wicked Rabbit",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Parsakaalisosekeittoa",
+              "RecipeId": 16346,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Lauantai",
+      "Date": "15.9.2018",
+      "SetMenus": [],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Sunnuntai",
+      "Date": "16.9.2018",
+      "SetMenus": [],
+      "Html": ""
+    }
+  ],
+  "RequireDietFilters": [
+    {
+      "Name": "GlutenFree",
+      "TranslatedName": "Gluteeniton",
+      "Diet": "G",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "LactoseFree",
+      "TranslatedName": "Laktoositon",
+      "Diet": "L",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "M"
+      ]
+    },
+    {
+      "Name": "LowLactose",
+      "TranslatedName": "Vähälaktoosinen",
+      "Diet": "VL",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "L",
+        "M"
+      ]
+    },
+    {
+      "Name": "NoMilk",
+      "TranslatedName": "Maidoton",
+      "Diet": "M",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Healthy",
+      "TranslatedName": "Voi hyvin",
+      "Diet": "*",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Vegetarian",
+      "TranslatedName": "Soveltuu vegaaniruokavalioon",
+      "Diet": "Veg",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "ExcludeDietFilters": [
+    {
+      "Name": "Garlic",
+      "TranslatedName": "Sis. tuoretta valkosipulia",
+      "Diet": "VS",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Allergens",
+      "TranslatedName": "Sis. allergeeneja",
+      "Diet": "A",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "RestaurantDietFilters": [],
+  "LastWeekMenuStartDate": null,
+  "NextWeekMenuStartDate": null,
+  "ProductDataSheets": []
+}

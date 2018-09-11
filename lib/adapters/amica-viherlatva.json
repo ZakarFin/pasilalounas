@@ -1,0 +1,1128 @@
+{
+  "WeekNumber": 37,
+  "LunchMenus": [
+    {
+      "DayOfWeek": "Maanantai",
+      "Date": "10.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Buffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Bataatti-omenakeittoa",
+              "RecipeId": 14851,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Seitifileetä smetanakastikkeessa",
+              "RecipeId": 1454,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Keitettyjä perunoita",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Timjamipaahdettua porkkanaa",
+              "RecipeId": 10583,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Jauhelihapyöryköitä tomaattikastikkeessa",
+              "RecipeId": 11239,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Luomutäysjyväkierrepastaa",
+              "RecipeId": 1032,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lakkavispipuuroa",
+              "RecipeId": 16687,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Kasvisbuffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Siemenseosta",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Bataatti-omenakeittoa",
+              "RecipeId": 14851,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasviskaalikääryleitä",
+              "RecipeId": 9309,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Karpalohilloketta",
+              "RecipeId": 10690,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Keitettyjä perunoita",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Mausteista luomusoija-kasvispataa",
+              "RecipeId": 16266,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Omena-kurkkusmoothie",
+              "RecipeId": 13272,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Tiistai",
+      "Date": "11.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Buffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kirkasta siika-kasviskeittoa",
+              "RecipeId": 533,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Broileri-kookoskastiketta",
+              "RecipeId": 1317,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Höyrytettyä riisiä",
+              "RecipeId": 25,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Parsakaalia ja porkkanaa (G, L, M)",
+              "RecipeId": 0,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Mausteisia lammaskaalikääryleitä",
+              "RecipeId": 9310,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Puolukkasurvosta",
+              "RecipeId": 36,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Perunasosetta",
+              "RecipeId": 63,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Mustikkakukkoa",
+              "RecipeId": 4166,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vaniljakastiketta",
+              "RecipeId": 12195,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Kasvisbuffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Linssi-kasviskeittoa",
+              "RecipeId": 14311,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Dukkah",
+              "RecipeId": 12918,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tomaatti-pestopannupizzaa",
+              "RecipeId": 16782,
+              "Diets": [
+                "A",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Valkosipulimurskaa",
+              "RecipeId": 5563,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Parsakaalia ja porkkanaa (G, L, M)",
+              "RecipeId": 0,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kukkakaali-punajuurigratiinia",
+              "RecipeId": 15427,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Mustaherukkanektari",
+              "RecipeId": 1039,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Keskiviikko",
+      "Date": "12.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Buffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Nakkikeittoa",
+              "RecipeId": 1563,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kalkkunanfileepihvejä ja rosepippurikastiketta",
+              "RecipeId": 4131,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Bataattiranskalaisia",
+              "RecipeId": 15331,
+              "Diets": [
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tonnikala-pinaattilasagnettea",
+              "RecipeId": 7679,
+              "Diets": [
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kukkakaalia jakesäkurpitsaa (G, L, M)",
+              "RecipeId": 0,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Uunijuustoa ja vadelmahilloa",
+              "RecipeId": 5442,
+              "Diets": [
+                "A",
+                "G"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Kasvisbuffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Sipulikeittoa",
+              "RecipeId": 7836,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Basilika-leipäkuutioita",
+              "RecipeId": 826,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Juurespihvejä",
+              "RecipeId": 7972,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pestorosso-ranskankermakastiketta",
+              "RecipeId": 4954,
+              "Diets": [
+                "A",
+                "G",
+                "VL",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lohkoperunoita ja paprikaa",
+              "RecipeId": 11684,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Dal -linssimuhennosta",
+              "RecipeId": 5437,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pitaleipää",
+              "RecipeId": 14934,
+              "Diets": [
+                "A",
+                "L",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kirsikka-omenajuoma",
+              "RecipeId": 7264,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Torstai",
+      "Date": "13.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Buffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Parsakaalia",
+              "RecipeId": 1532,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lihakeittoa",
+              "RecipeId": 691,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Paahdettua kirjolohta",
+              "RecipeId": 47,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tartarkastiketta",
+              "RecipeId": 199,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Keitettyjä perunoita",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Carnitas, pitkään haudutettua porsasta",
+              "RecipeId": 13675,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Avokadosalsaa",
+              "RecipeId": 10759,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Ranskankermaa",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vehnätortillaa",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Omena-kanelirahkaa",
+              "RecipeId": 8420,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Kasvisbuffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kasvis-hernekeittoa",
+              "RecipeId": 8317,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Hienonnettua sipulia",
+              "RecipeId": 6624,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Sinappia",
+              "RecipeId": 5562,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Luomutofua ja kasviksia kormakastikkeessa",
+              "RecipeId": 11207,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Jasminriisiä",
+              "RecipeId": 54,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Nyhtökauratäytettä",
+              "RecipeId": 16417,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Avokadosalsaa",
+              "RecipeId": 10759,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kreikkalaista kaurajogurttia",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Jogurtti, turkkilainen, L",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Puolukka-mustikkasmoothie",
+              "RecipeId": 8505,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Perjantai",
+      "Date": "14.9.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "Buffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Parsakaalisosekeittoa",
+              "RecipeId": 4739,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Broilerfilettä ja feta-pinaattihöystöä (A, G, L)",
+              "RecipeId": 0,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Paprikamajoneesia",
+              "RecipeId": 5805,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Limeriisiä",
+              "RecipeId": 5046,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Karamellisoitua ruusukaalia",
+              "RecipeId": 13226,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pepperonipizzaa",
+              "RecipeId": 12685,
+              "Diets": [
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Valkosipulimurskaa",
+              "RecipeId": 5563,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tyrni-jogurttipannacottaa",
+              "RecipeId": 12952,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Kasvisbuffetlounas",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Parsakaalisosekeittoa",
+              "RecipeId": 4739,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Linssi-kasvislasagnea",
+              "RecipeId": 16798,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasviskroketteja",
+              "RecipeId": 1698,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tomaattikastiketta",
+              "RecipeId": 6110,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Karamellisoitua ruusukaalia",
+              "RecipeId": 13226,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Aprikoosismoothie",
+              "RecipeId": 3920,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Lauantai",
+      "Date": "15.9.2018",
+      "SetMenus": [],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Sunnuntai",
+      "Date": "16.9.2018",
+      "SetMenus": [],
+      "Html": ""
+    }
+  ],
+  "RequireDietFilters": [
+    {
+      "Name": "GlutenFree",
+      "TranslatedName": "Gluteeniton",
+      "Diet": "G",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "LactoseFree",
+      "TranslatedName": "Laktoositon",
+      "Diet": "L",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "M"
+      ]
+    },
+    {
+      "Name": "LowLactose",
+      "TranslatedName": "Vähälaktoosinen",
+      "Diet": "VL",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "L",
+        "M"
+      ]
+    },
+    {
+      "Name": "NoMilk",
+      "TranslatedName": "Maidoton",
+      "Diet": "M",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Healthy",
+      "TranslatedName": "Voi hyvin",
+      "Diet": "*",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Vegetarian",
+      "TranslatedName": "Soveltuu vegaaniruokavalioon",
+      "Diet": "Veg",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "ExcludeDietFilters": [
+    {
+      "Name": "Garlic",
+      "TranslatedName": "Sis. tuoretta valkosipulia",
+      "Diet": "VS",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Allergens",
+      "TranslatedName": "Sis. allergeeneja",
+      "Diet": "A",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "RestaurantDietFilters": [],
+  "LastWeekMenuStartDate": null,
+  "NextWeekMenuStartDate": null,
+  "ProductDataSheets": []
+}
