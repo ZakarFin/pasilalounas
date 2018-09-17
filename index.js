@@ -44,7 +44,7 @@ app.get('/lunch.json', function (req, res) {
 app.get('/', function(req, res) {
     renderHtml(req, res, true);
 });
-app.get('/legacy', function(req, res) {
+app.get('/map', function(req, res) {
     renderHtml(req, res);
 });
 app.get('/:day', function(req, res) {
