@@ -12,17 +12,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 var lunch = require('./lib/lunch');
 var util = require('./lib/util');
 
-function renderHtml(req, res, useWS) {
+function renderHtml(req, res) {
     var day = util.getDay(req.params.day);
-    if(useWS) {
-        res.render('ws', {
-            title: 'Lounas@Pasila',
-            options : util.days,
-            day : day,
-            places: lunch.places()
-        });
-        return;
-    }
+    res.render('ws', {
+        title: 'Lounas@Pasila',
+        options : util.days,
+        day : day,
+        places: lunch.places()
+    });
+}
+
+function renderMap(req, res) {
+    var day = util.getDay(req.params.day);
     lunch.all(day).then(function(result) {
         res.render('index', {
             title: 'Lounas@Pasila',
@@ -42,10 +43,10 @@ app.get('/lunch.json', function (req, res) {
 
 // index and day-routes
 app.get('/', function(req, res) {
-    renderHtml(req, res, true);
+    renderHtml(req, res);
 });
 app.get('/map', function(req, res) {
-    renderHtml(req, res);
+    renderMap(req, res);
 });
 app.get('/:day', function(req, res) {
     renderHtml(req, res);

@@ -14,6 +14,8 @@ socket.on('places', function(msg) {
     console.log('places', msg);
     places = msg;
     addPlaces(places);
+    // got the places -> disconnect
+    socket.close();
 });
 
 map.on('click', function (e) {
@@ -28,7 +30,8 @@ function pointOnCircle(coords, title) {
             "coordinates": coords
         },
         "properties": {
-            "title": title || 'Rafla'
+            "title": title || 'Rafla',
+            "menu": ""
         }
     }
 }
@@ -38,7 +41,7 @@ function getPlaces(places) {
         "type": "FeatureCollection",
         "features": []
     };
-    places.forEach(element => {
+    places.forEach(function (element) {
         if(element.coords) {
             obj.features.push(pointOnCircle(element.coords, element.name));
         }
@@ -59,18 +62,16 @@ function addPlaces(places) {
                     "data": features
                 },
                 "layout": {
-                    //"icon-size": 0.1,
                     "icon-image": "lunch",
                     "text-field": "{title}",
                     "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
                     "text-offset": [2, 0.6],
-                    "text-size": 14,
+                    "text-size": 11,
                     "text-anchor": "top"
                 },
                 'paint': {
                     "text-color": "#FFFFFF",
                     "icon-color": "#FFFFFF",
-                    "icon-halo-color": "#FFFFFF",
                     "text-halo-color": "#FF0000"
                 }
             });
@@ -79,28 +80,61 @@ function addPlaces(places) {
             var bbox = turf.bbox(buffered);
             map.fitBounds(bbox);
 
-            navigator.geolocation.getCurrentPosition(function (pos) {
-                var crd = pos.coords;
-              
-                var userLocation = [crd.longitude, crd.latitude];
-                var from = turf.point(userLocation);
-                
-                var center = map.getCenter()
-                var to = turf.point([center.lng, center.lat]);
-                var distance = turf.distance(from, to);
-                
-                console.log('The user is at:', pos, 'That is ' +  distance + 'km away.');
-                var marker = new mapboxgl.Marker();
-                marker.setLngLat(userLocation).addTo(map);
-                console.log(marker)
-                features.features.push(pointOnCircle(userLocation, 'User'));
-                var buffered = turf.buffer(features, 0.5);
-                var bbox = turf.bbox(buffered);
-                map.fitBounds(bbox);
-            }, function(err) {
-                console.error(err);
+            // Create a popup, but don't add it to the map yet.
+            var popup = new mapboxgl.Popup({
+                closeButton: false,
+                closeOnClick: false
+            });
+
+            map.on('mouseenter', 'points', function(e) {
+                // Change the cursor style as a UI indicator.
+                map.getCanvas().style.cursor = 'pointer';
+
+                var coordinates = e.features[0].geometry.coordinates.slice();
+                var description = e.features[0].properties.description || e.features[0].properties.title;
+
+                // Ensure that if the map is zoomed out such that multiple
+                // copies of the feature are visible, the popup appears
+                // over the copy being pointed to.
+                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                }
+
+                // Populate the popup and set its coordinates
+                // based on the feature found.
+                popup.setLngLat(coordinates)
+                    .setHTML(description)
+                    .addTo(map);
+            });
+
+            map.on('mouseleave', 'points', function() {
+                map.getCanvas().style.cursor = '';
+                popup.remove();
             });
         });
     });
+}
 
+function showUserAsMarker() {
+    navigator.geolocation.getCurrentPosition(function (pos) {
+        var crd = pos.coords;
+      
+        var userLocation = [crd.longitude, crd.latitude];
+        var from = turf.point(userLocation);
+        
+        var center = map.getCenter()
+        var to = turf.point([center.lng, center.lat]);
+        var distance = turf.distance(from, to);
+        
+        console.log('The user is at:', pos, 'That is ' +  distance + 'km away.');
+        var marker = new mapboxgl.Marker();
+        marker.setLngLat(userLocation).addTo(map);
+        console.log(marker)
+        features.features.push(pointOnCircle(userLocation, 'User'));
+        var buffered = turf.buffer(features, 0.5);
+        var bbox = turf.bbox(buffered);
+        map.fitBounds(bbox);
+    }, function(err) {
+        console.error(err);
+    });
 }
