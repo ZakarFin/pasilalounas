@@ -14,7 +14,7 @@ var util = require('./lib/util');
 
 function renderHtml(req, res) {
     var day = util.getDay(req.params.day);
-    res.render('ws', {
+    res.render('menus', {
         title: 'Lounas@Pasila',
         options : util.days,
         day : day,
@@ -25,7 +25,7 @@ function renderHtml(req, res) {
 function renderMap(req, res) {
     var day = util.getDay(req.params.day);
     lunch.all(day).then(function(result) {
-        res.render('index', {
+        res.render('map', {
             title: 'Lounas@Pasila',
             options : util.days,
             day : day,
