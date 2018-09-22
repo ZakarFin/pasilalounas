@@ -24,7 +24,9 @@ html
                         a(class=(opt===day) ? 'btn btn-default btn-primary' : 'btn btn-default', href='/' + opt)= opt
 
         div(id='map')
-
+        div(id='locateme',style='display:none')
+            a(href='javascript:void(0);') Where am I?
+            
     script(src='/socket.io/socket.io.js')
     script(src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js')
     script(src='https://api.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js')

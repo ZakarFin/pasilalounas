@@ -194,10 +194,16 @@ function addPlaces(places) {
                 popup.remove();
             });
         });
+        var locateEl = document.getElementById('locateme');
+        document.getElementById('map').appendChild(locateEl);
+        locateEl.style = '';
+        locateEl.querySelector('a').addEventListener('click', function() {
+            showUserAsMarker(features, map);
+        });
     });
 }
 
-function showUserAsMarker() {
+function showUserAsMarker(features, map) {
     navigator.geolocation.getCurrentPosition(function (pos) {
         var crd = pos.coords;
       
@@ -212,7 +218,7 @@ function showUserAsMarker() {
         var marker = new mapboxgl.Marker();
         marker.setLngLat(userLocation).addTo(map);
         console.log(marker)
-        features.features.push(pointOnCircle(userLocation, 'User'));
+        features.features.push(pointOnCircle('user', userLocation, 'User'));
         var buffered = turf.buffer(features, 0.5);
         var bbox = turf.bbox(buffered);
         map.fitBounds(bbox);

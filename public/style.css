@@ -21,6 +21,13 @@ body {
   color: #000;
   max-width: 60%;
 }
+#locateme {
+  position: absolute;
+  top: 10;
+  right: 20px;
+  background-color: rgb(255,255,255,0.2);
+  padding: 1px 10px;  
+}
 
 article,
 aside,
