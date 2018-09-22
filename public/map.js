@@ -7,22 +7,78 @@ var map = new mapboxgl.Map({
   zoom: 14.0
 });
 
+var counter = 9999;
 var places = [];
 var socket = io();
+var menus = {};
 
 socket.on('places', function(msg) {
     console.log('places', msg);
     places = msg;
+    counter = msg.length;
     addPlaces(places);
-    // got the places -> disconnect
-    socket.close();
 });
 
+function createListItem(value, insertBreaks) {
+    var li = document.createElement("li");
+    var t = document.createTextNode(value);
+    li.appendChild(t);
+    if(insertBreaks) {
+        li.appendChild(document.createElement("br"));
+        li.appendChild(document.createElement("br"));
+    }
+    return li;
+}
+function createLinkItem(href, text) {
+    var li = document.createElement("li");
+    var link = document.createElement("a");
+    link.setAttribute('href', href);
+    link.setAttribute('target', '_blank');
+    var t = document.createTextNode(text);
+    link.appendChild(t);
+    li.appendChild(link);
+    return li;
+}
+
+socket.on('menu', function(msg) {
+    if(!msg.menu || !msg.menu[currentDay]) {
+        menus[msg.id] = createListItem('Listaa ei saatu ladattua.', true) +
+            createLinkItem(msg.url,'Katso ravintolan sivuilta >>');
+        receivedmenu();
+        return;
+    }
+    var list = document.createElement("ul");
+    // currentDay is inlined as global in HTML
+    msg.menu[currentDay].forEach(function(menuItem) {
+        if(menuItem && menuItem.trim()) {
+            list.appendChild(createListItem(menuItem));
+        }
+    });
+    menus[msg.id] = list;
+    console.log('menu for ' + msg.name, msg);
+    receivedmenu();
+});
+
+function receivedmenu() {
+    counter--;
+    if(counter === 0) {
+        // got all the menus -> disconnect
+        socket.close();
+        console.log('Close socket');
+    }
+}
+
+setTimeout(function() {
+    if(counter !== 0) {
+        socket.close();
+        console.log('Closing socket after a minute of waiting for menus. ' + counter + ' menus didnt load.');
+    }
+}, 60000);
 map.on('click', function (e) {
     console.log('Clicked in [' + e.lngLat.lng + ', ' + e.lngLat.lat + ']');
 });
 
-function pointOnCircle(coords, title) {
+function pointOnCircle(id, coords, title) {
     return {
         "type": "Feature",
         "geometry": {
@@ -30,6 +86,7 @@ function pointOnCircle(coords, title) {
             "coordinates": coords
         },
         "properties": {
+            "id": id,
             "title": title || 'Rafla',
             "menu": ""
         }
@@ -43,30 +100,33 @@ function getPlaces(places) {
     };
     places.forEach(function (element) {
         if(element.coords) {
-            obj.features.push(pointOnCircle(element.coords, element.name));
+            obj.features.push(pointOnCircle(element.id, element.coords, element.name));
         }
     });
     return obj;
 }
 function addPlaces(places) {
+    var features = getPlaces(places);
     map.on('load', function () {
         map.loadImage('/food2.png', function(error, image) {
             if (error) { throw error; }
             map.addImage('lunch', image);
-            var features = getPlaces(places);
+
+            map.addSource("restaurants", {
+                type: "geojson",
+                data: features,
+                cluster: true
+            });
             map.addLayer({
                 "id": "points",
                 "type": "symbol",
-                "source": {
-                    "type": "geojson",
-                    "data": features
-                },
+                "source": "restaurants",
                 "layout": {
                     "icon-image": "lunch",
                     "text-field": "{title}",
                     "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
                     "text-offset": [2, 0.6],
-                    "text-size": 11,
+                    "text-size": 12,
                     "text-anchor": "top"
                 },
                 'paint': {
@@ -76,6 +136,24 @@ function addPlaces(places) {
                 }
             });
 
+            map.addLayer({
+                id: "cluster-count",
+                type: "symbol",
+                source: "restaurants",
+                filter: ["has", "point_count"],
+                layout: {
+                    "icon-image": "lunch",
+                    "text-field": "{point_count_abbreviated}",
+                    "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                    "text-size": 18
+                },
+                'paint': {
+                    "text-color": "#FFFFFF",
+                    "icon-color": "#FFFFFF",
+                    "text-halo-color": "#FF0000"
+                }
+            });
+        
             var buffered = turf.buffer(features, 0.1);
             var bbox = turf.bbox(buffered);
             map.fitBounds(bbox);
@@ -91,7 +169,11 @@ function addPlaces(places) {
                 map.getCanvas().style.cursor = 'pointer';
 
                 var coordinates = e.features[0].geometry.coordinates.slice();
-                var description = e.features[0].properties.description || e.features[0].properties.title;
+                var props = e.features[0].properties;
+                var content = '<h4>' + props.title + '</h4>';
+                if (menus[props.id]) {
+                    content = content + menus[props.id].innerHTML;
+                }
 
                 // Ensure that if the map is zoomed out such that multiple
                 // copies of the feature are visible, the popup appears
@@ -103,7 +185,7 @@ function addPlaces(places) {
                 // Populate the popup and set its coordinates
                 // based on the feature found.
                 popup.setLngLat(coordinates)
-                    .setHTML(description)
+                    .setHTML(content)
                     .addTo(map);
             });
 

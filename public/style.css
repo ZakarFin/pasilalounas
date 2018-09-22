@@ -17,6 +17,10 @@ body {
 }
 
 #map { height:80%; width:100%; }
+.mapboxgl-popup {
+  color: #000;
+  max-width: 60%;
+}
 
 article,
 aside,
