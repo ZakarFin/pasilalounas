@@ -12,8 +12,8 @@ html
     meta(name='theme-color',content='#ffffff')
 
     title= title
-    link(rel='stylesheet',href='style.css')
     link(rel='stylesheet',href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css')
+    link(rel='stylesheet',href='style.css')
   body
     div(class='container')
         nav(class='navbar navbar-default')
@@ -26,11 +26,8 @@ html
         div(id='map')
         div(id='locateme',style='display:none')
             a(href='javascript:void(0);') Where am I?
-            
-    script(src='/socket.io/socket.io.js')
-    script(src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js')
-    script(src='https://api.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js')
+
     script.
         var currentDay = '#{day}';
-    script(src='map.js')
+    script(src='dist/main.js')
 
