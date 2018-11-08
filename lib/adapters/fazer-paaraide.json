@@ -1,0 +1,906 @@
+{
+  "WeekNumber": 45,
+  "LunchMenus": [
+    {
+      "DayOfWeek": "Maanantai",
+      "Date": "5.11.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 12,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Papu-kasviskeittoa",
+              "RecipeId": 1980,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 13,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Meksikolaista maissi-kasvishöystöä",
+              "RecipeId": 7839,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Täysjyvävehnää",
+              "RecipeId": 92,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 21,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Broileripyöryköitä",
+              "RecipeId": 1367,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Höyrytettyä tummaa riisiä",
+              "RecipeId": 90,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Currykastiketta",
+              "RecipeId": 9905,
+              "Diets": [
+                "*",
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 22,
+          "Name": "Buffet-linja 2",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Burgundinpataa",
+              "RecipeId": 3317,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Palsternakka-perunasosetta",
+              "RecipeId": 3676,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 45,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kreikkalainen salaatti",
+              "RecipeId": 198,
+              "Diets": [
+                "A",
+                "G",
+                "VL"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Tiistai",
+      "Date": "6.11.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 12,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Palsternakkasosekeittoa",
+              "RecipeId": 16349,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 13,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kasvis-kikhernepastavuokaa",
+              "RecipeId": 10817,
+              "Diets": [
+                "*",
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 21,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Jauheliha-chilikastiketta",
+              "RecipeId": 3596,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Höyrytettyä tummaa riisiä",
+              "RecipeId": 90,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 29,
+          "Name": "Buffet-linja 2",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Turskan seläkettä chili-kookoskastikkeessa",
+              "RecipeId": 16470,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tilliperunoita",
+              "RecipeId": 67,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Wokattuja kasviksia",
+              "RecipeId": 11759,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 45,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Broilerisalaatti",
+              "RecipeId": 20,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 100,
+          "Name": "Jälkiruoka",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Mango-vaniljahyytelöä",
+              "RecipeId": 1593,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Keskiviikko",
+      "Date": "7.11.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 12,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kasvis-borssikeittoa ja jogurttia",
+              "RecipeId": 14154,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 13,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Herne-kasvispihvejä",
+              "RecipeId": 14902,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Ruohosipulikermaviilikastiketta",
+              "RecipeId": 121,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Keitettyjä perunoita",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 21,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kalkkunaa ja kasviksia inkiväärikastikkeessa",
+              "RecipeId": 1099,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Höyrytettyä tummaa riisiä",
+              "RecipeId": 90,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 29,
+          "Name": "Buffet-linja 2",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Porsaan kassleria",
+              "RecipeId": 12155,
+              "Diets": [
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Herkkusienikastiketta",
+              "RecipeId": 10200,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Paahdettua perunaa ja kasviksia",
+              "RecipeId": 6901,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 45,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Nizzan salaattia",
+              "RecipeId": 466,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Torstai",
+      "Date": "8.11.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 12,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Bataattisosekeittoa",
+              "RecipeId": 218,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 13,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kikhernepataa",
+              "RecipeId": 14338,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Höyrytettyä tummaa riisiä",
+              "RecipeId": 90,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 21,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Lohimurekepihvejä",
+              "RecipeId": 6568,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tzatsikia",
+              "RecipeId": 158,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Tilliperunoita",
+              "RecipeId": 67,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 29,
+          "Name": "Buffet-linja 2",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Parmesankuorrutettu broilerinfilee",
+              "RecipeId": 1289,
+              "Diets": [
+                "*",
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Currymajoneesia",
+              "RecipeId": 8368,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Paahdettua bataattia",
+              "RecipeId": 4646,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Sahramilla maustettua paahdettua kukkakaalia",
+              "RecipeId": 13196,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 45,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Halloumijuustosalaatti",
+              "RecipeId": 3742,
+              "Diets": [
+                "A",
+                "G",
+                "VL"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 100,
+          "Name": "Jälkiruoka",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Ruusunmarjakiisseliä",
+              "RecipeId": 963,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vaniljavaahtoa",
+              "RecipeId": 13267,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Perjantai",
+      "Date": "9.11.2018",
+      "SetMenus": [
+        {
+          "SortOrder": 12,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Punajuurisosekeittoa",
+              "RecipeId": 479,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 13,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Jogurttista linssi-kasvismuhennosta",
+              "RecipeId": 10095,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Täysjyvävehnää",
+              "RecipeId": 92,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 21,
+          "Name": "Buffet-linjat 2 & 3 & 4 & 5",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Jauhelihalasagnettea",
+              "RecipeId": 4059,
+              "Diets": [
+                "A",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 29,
+          "Name": "Buffet-linja 2",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Paahdettuja lohkoperunoita",
+              "RecipeId": 14408,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kalkkuna-ananashampurilainen",
+              "RecipeId": 8369,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 45,
+          "Name": "Buffet-linja 1",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Katkarapusalaatti",
+              "RecipeId": 3108,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Lauantai",
+      "Date": "10.11.2018",
+      "SetMenus": [],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Sunnuntai",
+      "Date": "11.11.2018",
+      "SetMenus": [],
+      "Html": ""
+    }
+  ],
+  "RequireDietFilters": [
+    {
+      "Name": "GlutenFree",
+      "TranslatedName": "Gluteeniton",
+      "Diet": "G",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "LactoseFree",
+      "TranslatedName": "Laktoositon",
+      "Diet": "L",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "M"
+      ]
+    },
+    {
+      "Name": "LowLactose",
+      "TranslatedName": "Vähälaktoosinen",
+      "Diet": "VL",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "L",
+        "M"
+      ]
+    },
+    {
+      "Name": "NoMilk",
+      "TranslatedName": "Maidoton",
+      "Diet": "M",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Healthy",
+      "TranslatedName": "Voi hyvin",
+      "Diet": "*",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Vegetarian",
+      "TranslatedName": "Soveltuu vegaaniruokavalioon",
+      "Diet": "Veg",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "ExcludeDietFilters": [
+    {
+      "Name": "Garlic",
+      "TranslatedName": "Sis. tuoretta valkosipulia",
+      "Diet": "VS",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Allergens",
+      "TranslatedName": "Sis. allergeeneja",
+      "Diet": "A",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "RestaurantDietFilters": [],
+  "LastWeekMenuStartDate": null,
+  "NextWeekMenuStartDate": null,
+  "ProductDataSheets": []
+}
