@@ -11,6 +11,7 @@
     "test": "mocha lib/**/**.spec.js",
     "testinsignore": "mocha lib/adapters/amica-insinoorit-ja-ekonomit.spec.js",
     "testblancco": "mocha lib/adapters/blancco.spec.js",
+    "testantell": "mocha lib/adapters/antell.spec.js",
     "testratakivi": "mocha lib/adapters/ratakivi.spec.js",
     "testvaunu": "mocha lib/adapters/ravintolavaunu.spec.js",
     "testviher": "mocha lib/adapters/amica-viherlatva.spec.js",
