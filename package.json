@@ -28,6 +28,6 @@
     "eslint": "^4.19.1",
     "mocha": "^6.2.2",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
